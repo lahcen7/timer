@@ -1,0 +1,121 @@
+body {
+			background: #f6f6f6;
+			font-family: 'cloc';
+			background-image: url(../img/tim1.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			
+			
+		}
+			.container{
+				background-image: url(../img/iphone.svg);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				width: 400px;
+				height: 670px;
+				margin: auto;
+				padding-top: 92px;
+				padding-bottom: 150px;
+				position:relative;
+			}
+
+		.countdownContainer{
+			background-image: url(../img/70313677-time-wallpapers.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+			/*transform : translateX(-50%) translateY(-50%);*/
+			margin: auto;
+			text-align: center;
+			
+			width: 350px;
+			height: 93%;
+			padding: 10px;
+			border-radius: 7px;
+			box-shadow: 0 0 1px 1px #ccc;
+		}
+@font-face{
+ font-family:cloc;
+src: url(../font/TickingTimebombBB.ttf);
+			}
+			@font-face{
+ font-family:timer;
+src: url(../font/LOOPY___.ttf);
+			}
+		.info {
+			font-size: 80px;
+			color: white;
+			text-shadow: 0 0 2px #fff, 0 0 6px #fff, 0 0 10px #fff, 0 0 15px #ff2525, 0 0 25px #ff2525, 0 0 30px #ff2525, 0 0 40px #ff2525, 0 0 50px #ff2525;
+		}
+			.info1{
+				text-shadow: 0 0 2px #fff, 0 0 6px #fff, 0 0 10px #fff, 0 0 15px #2549ff, 0 0 25px #2549ff, 0 0 30px #2549ff, 0 0 40px #2549ff, 0 0 50px #2549ff;
+				color: rgba(255, 255, 255, 0.87);
+				font-size: 20px;
+			}
+			.btn{
+				background-image:url(../img/start.png)   ;
+				
+				
+			}
+			.btn1{
+				background-image:url(../img/puse.png)   ;
+				
+				
+			}
+			.btn2{
+				background-image:url(../img/reset.png)   ;
+				
+				
+			}
+			button:active{
+				transition: all 0.05s;
+				width: 52px;
+				height: 52px;
+				box-shadow:   0 0 2px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255), 0 0 6px rgb(255, 255, 255), 0 0 7px #ff2525, 0 0 10px #ff2525, 0 0 15px #ff2525, 0 0 17px #ff2525, 0 0 20px #ff2525;
+				
+			}
+			.countdownContainer button{
+				margin-left: 20px;
+				opacity: 0.55;
+				padding-left: 15px;
+				background-repeat: no-repeat;
+				background-size:cover;
+				border: 0;
+				width: 80px;
+				height: 80px;
+				border-radius: 50%;
+			box-shadow:0 0 25px #ff2525;
+			}
+			
+			#tit{
+				font-family: timer;
+				text-shadow: 0 0 2px #fff, 0 0 6px #fff, 0 0 10px #fff, 0 0 15px #2549ff, 0 0 25px #2549ff, 0 0 30px #2549ff, 0 0 40px #2549ff, 0 0 50px #2549ff;
+			}
+			.text{
+				font-family: timer;
+			transform: translate(1200px) translateY(-600px) rotate(-45deg);
+				
+				position: absolute;
+				color: white;
+				
+				
+			}
+			.text1{
+				text-shadow: 0 0 2px #fff, 0 0 6px #fff, 0 0 10px #fff, 0 0 15px #2549ff, 0 0 25px #2549ff, 0 0 30px #2549ff, 0 0 40px #2549ff, 0 0 50px #2549ff;
+				font-size: 120px;
+			}
+			.text2{
+				text-shadow: 0 0 2px #fff, 0 0 6px #fff, 0 0 10px #fff, 0 0 15px #ff2525, 0 0 25px #ff2525, 0 0 30px #ff2525, 0 0 40px #ff2525, 0 0 50px #ff2525;
+				font-size: 140px;
+			}
+			#btn{
+				position: absolute;
+				transform: translate(161px);
+				margin-top: 4px;
+				width: 70px;
+				height: 70px;
+				border-radius: 50%;
+				background-color: rgba(244, 164, 96, 0);
+				border: 0;
+				
+			}
